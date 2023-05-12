@@ -1,0 +1,124 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+.clear{ clear:both} 
+.left{
+	position: fixed;
+    bottom: 0;
+    right: 0;
+	width:8%;
+	text-align:center;
+	float: left;
+}
+.right{
+	float: left;
+	width:92%;
+}
+
+
+.header {
+      padding: 10px;
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+/*       margin-top: 20px; */
+      margin-bottom: 20px;
+	  position: fixed;
+	  top: 0;
+	  background-color:white;
+	  width:100%;
+}
+
+.nav {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      gap: 60px;
+      list-style-type: none;
+    }
+
+.nav li a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.2rem;
+	  /* justify-content: center; */
+	  justify-content: flex-end;
+    }
+	
+.nav li:hover{
+    background-color: green;
+}
+
+.a img{
+        width: 100%;
+        height: 650px;
+		align-items: center;
+		justify-content: center;
+}
+
+.br1{
+	line-height:5px;
+	text-align:center;
+/* 	background-color:#06C167; */
+	width:100%
+}
+.br2{
+	font-size:20px;
+}
+.content1,.content2,.content3{
+	background-color:#06C167;
+	float: left;
+	align-items: center;
+	height:400px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.br3{
+	margin-top:50px;
+}
+.content1{
+	width:50%;
+}
+.content1 li{
+	list-style:none;
+	text-align:center;
+	font-size:14px;
+}
+.content2{
+	width:30%;
+	line-height:40px;
+}
+.content3{
+	width:20%;
+}
+
+.benefit,.client,.ubereats,.account,.order{
+	justify-content:space-between;
+	align-items: center;
+	display:flex;
+	float: left;
+	width:20%;
+	line-height:40px;
+}
+.br3 ul{
+	list-style:none;
+}
+
+.br4{
+	width:100%;
+	height:150px;
+	justify-content:space-between;	
+}
+.br4-1{
+	width:40%;
+	display:flex;
+	float: left;
+	justify-content:space-between;
+}
+.left img:hover{
+    transform: scale(1.5);
+	transition: all 0.3s;
+}
+.br5 span{
+	position: relative;
+	left:230px;
+}
