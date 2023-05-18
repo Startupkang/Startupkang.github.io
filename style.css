@@ -1,4 +1,14 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@font-face {
+  font-family: 'UberMoveTextMedium';
+  src:  local("UberMoveTextMedium")
+		url('../fonts/UberMoveTextMedium.woff') format("woff"),
+        url('../fonts/UberMoveTextMedium.ttf') format("truetype"),
+        url('../fonts/UberMoveTextMedium.eot') format("embedded-opentype");
+}
+body {
+    font-family: 'UberMoveTextMedium' ;
+}
 .clear{ clear:both} 
 
 .right{
@@ -77,13 +87,6 @@
 	flex-wrap: wrap;
 /* 	justify-content:space-between; */
 }
-
-.br3{
-	margin-top:50px;
-}
-.br3 img{
-	 width:50%;
-}
 .content1 li{
 	list-style:none;
 	text-align:center;
@@ -105,6 +108,15 @@
 	width:20%;
 }
 
+.br3{
+	margin-top:50px;
+}
+.br3 img{
+	 width:50%;
+}
+.br3 ul{
+	list-style:none;
+}
 .benefit,.client,.ubereats,.account,.order{
 	justify-content:space-between;
 	align-items: center;
@@ -113,18 +125,26 @@
 	width:20%;
 	line-height:40px;
 }
-.br3 ul{
-	list-style:none;
-}
 
-.br4{
-	width:100%;
-	height:150px;
-	justify-content:space-between;	
-	text-align:center;
-}
 .left img:hover{
     transform: scale(1.5);
 	transition: all 0.3s;
 }
-
+.br4{
+	margin-top:50px;
+}
+.br4 ul{
+	list-style:none;
+}
+.data,.AML,.set,.tablet,.call{
+	justify-content:center;
+	align-items: center;
+	display:flex;
+	float: left;
+	width:20%;
+	line-height:40px;
+}
+.br3,.br4 img{
+	height:150px;
+	text-align:center;
+}

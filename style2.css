@@ -50,11 +50,11 @@
     background-color: green;
 }
 
-.a img{
+/* .a img{
         width: 100%;
 		align-items: center;
 		justify-content: center;
-}
+} */
 
 .br1{
 	line-height:5px;
@@ -70,7 +70,7 @@
 .br2{
 	font-size:20px;
 }
-.content1,.content2,.content3{
+.content2,.content3{
 	background-color:#06C167;
 	float: left;
 	align-items: left;
@@ -81,26 +81,28 @@
 	flex-wrap: wrap;
 /* 	justify-content:space-between; */
 }
+.content1{
+	background-color:#06C167;
+	float: left;
+	align-items: left;
+	display:flex;
+	text-align:left;
+	height:auto;
+	align-content: center;
+	flex-wrap: wrap;
+	width:100%;
+	display:flex;
+}
 
-.br3{
-	margin-top:50px;
-}
-.br3 img{
-	 width:80%;
-}
 .content1 li{
 	list-style:none;
 	text-align:center;
 	font-size:14px;
 }
-.content1{
-	width:100%;
-	display:flex;
-}
 .content1 img{
-	max-width:95%;
+	height: auto;
+	max-width: 100%;
 }
-
 .content2{
 	width:60%;
 	line-height:30px;
@@ -118,17 +120,28 @@
 	line-height:40px;
 	text-align:center;
 }
-.br3 ul{
+.br3,.br4{
+	margin-top:50px;
+	font-size:17px;
+}
+.br3 img{
+	 width:80%;
+	 display: block;
+	margin: 0 auto;
+}
+.br3,.br4 ul{
 	list-style:none;
 }
-.benefit,.client,.ubereats,.account,.order img{
-	width:75%;
+
+.apply img{
+	width:90%;
 }
-.br4{
-	font-size:14px;
+.data,.AML,.set,.tablet,.call{
+	align-items: center;
+	display:flex;
+	float: left;
 	width:100%;
-	height:150px;
-	justify-content:space-between;	
+	line-height:40px;
 	text-align:left;
 }
 .left img:hover{
