@@ -1,4 +1,11 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@font-face {
+  font-family: 'UberMoveTextMedium';
+  src:  local("UberMoveTextMedium")
+		url('../fonts/UberMoveTextMedium.woff') format("woff"),
+        url('../fonts/UberMoveTextMedium.ttf') format("truetype"),
+        url('../fonts/UberMoveTextMedium.eot') format("embedded-opentype");
+}
 body {
     font-family: 'UberMoveTextMedium' ;
 }
@@ -146,9 +153,7 @@ body {
 	float:left;
 	line-height:20px;
 }
-.first-ul ul{
-  margin: 0;
-  padding: 0;
+
   list-style: none;
 }
 .first-ul {
