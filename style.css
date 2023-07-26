@@ -153,11 +153,6 @@ body {
 	float:left;
 	line-height:20px;
 }
-.first-ul ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 .first-ul {
   display: inline-block;
   font-family: 'Open Sans', Arial, sans-serif;
@@ -173,7 +168,7 @@ body {
   border-right: none;
 }
 .first-ul > li {
-  float: left; /* 只有第一層是靠左對齊*/
+  float: left;
 }
  .first-ul a {
   background-color: #000000;
@@ -183,12 +178,12 @@ body {
   text-decoration: none;
   line-height: 40px;
 }
-.first-ul a:hover { /* 滑鼠滑入按鈕變色*/
+.first-ul a:hover { 
   background-color: #fff;
   color: #000;
   text-decoration:underline;
 }
-.first-ul li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+.first-ul li:hover > a { 
   background-color: #fff;
   color: #000;
 }
