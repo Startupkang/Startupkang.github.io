@@ -153,6 +153,10 @@ body {
 	float:left;
 	line-height:20px;
 }
+.1 li{
+	list-style-type:none;
+}
+
 .first-ul {
   display: inline-block;
   font-family: 'Open Sans', Arial, sans-serif;
